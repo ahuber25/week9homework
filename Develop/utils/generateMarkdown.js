@@ -1,7 +1,7 @@
 
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-    return `![Github License]`;
+    return `![Github License](https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
   return '';
 }
@@ -49,6 +49,8 @@ To Install, run the following command
 \`\`\`
 ${data.install}
 \`\`\`
+
+${renderLicenseSection(data.lincese)}
 
 ## Testing
 
