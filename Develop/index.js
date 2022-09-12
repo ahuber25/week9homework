@@ -33,6 +33,12 @@ const questions = [
         choices: ['HTML', 'CSS', 'Javascript', 'Node', 'JSON']
       },
       {
+        type: 'list',
+        name: 'license',
+        message: 'What kind of license should your project have?',
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+      },
+      {
         type: 'input',
         name: 'install',
         message: 'What command should be run to install dependencies?',
@@ -43,7 +49,7 @@ const questions = [
         name: 'test',
         message: 'What command should be run to run tests?',
         default: 'npm test'
-      },
+      }
 
 ];
 
