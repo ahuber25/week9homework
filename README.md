@@ -10,4 +10,4 @@ https://github.com/ahuber25/week9homework
 
 And the link to a video of the code functioning:
 
-https://www.youtube.com/watch?v=ew1AHhZGRL
+[https://www.youtube.com/watch?v=ew1AHhZGRL](https://www.youtube.com/watch?v=ew1AHhZGRLI)
